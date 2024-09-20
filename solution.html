@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="./assets/css/solution.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <style type="text/css">
+        .slider {
+            width: 100%;
+
+        }
+
+        .slick-slide {
+            margin: 0px 20px;
+        }
+
+        .slick-current {
+            opacity: 1;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+
+
+
+
+
+
+    <!-- End Header -->
+
+    <!-- ======= Hero ======= -->
+
+    <div class="banner">
+
+        <div class="header" id="header">
+
+            <nav class="navbar navbar-expand-xl bg-body-tertiary ">
+                <div class="container-fluid container-space my-1 px-0">
+
+
+                    <a href="index.html" class="navbar-brand px-0 mx-0">
+                        <img class="logo mx-0 px-0" src="./assets/images/logo.png" alt="">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-menu" aria-current="page" href="./index.html">Home</a>
+                            </li>
+
+                            <div class="d ">
+                                <a class="nav-link nav-link-menu active d-btn" onclick="myFunction()"
+                                    href="#">Solutions</a>
+
+
+
+                                <div class="d-content pt-md-0 pt-2" id="myDropdown">
+
+                                    <div class="d-md-flex">
+
+                                        <a href="./solution.html" class="menu-list-link">
+                                            <div class="d-flex">
+                                                <div class="m-md-3 mb-1 ms-3">
+                                                    <div class="menu-icon">
+
+                                                        <li class="ps-4 mb-2 menu-list">Industry Solutions</li>
+                                                        <img class="built-icon" src="./assets/images/menu-icon.svg"
+                                                            alt="">
+                                                    </div>
+
+
+                                                    <img class="img-fluid menu-imgs" src="./assets/images/menu-img.svg"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                        </a>
+
+
+
+                                        <a href="#" class="menu-list-link">
+                                            <div class="d-flex">
+                                                <div class="m-md-3 mb-1 ms-3">
+                                                    <div class="menu-icon">
+
+                                                        <li class="ps-4 mb-2 menu-list">Technology Solutions
+                                                        </li>
+                                                        <img class="built-icon" src="./assets/images/menu-icon.svg"
+                                                            alt="">
+                                                    </div>
+
+
+                                                    <img class="img-fluid menu-imgs"
+                                                        src="./assets/images/menu-img-1.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </a>
+
+
+                                        <a href="#" class="menu-list-link">
+                                            <div class="d-flex">
+                                                <div class="m-md-3 mb-1 ms-3">
+                                                    <div class="menu-icon">
+
+                                                        <li class="ps-4 mb-2 menu-list">Learn More</li>
+                                                        <img class="built-icon" src="./assets/images/menu-icon.svg"
+                                                            alt="">
+                                                    </div>
+
+
+                                                    <img class="img-fluid menu-imgs"
+                                                        src="./assets/images/menu-img-2.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-menu" href="#">Business Process Services</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-menu" href="#">Our Success Stories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-menu" href="./knowledge.html">Knowledge Resources</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-menu" href="./about.html">About Us</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-menu " href="./careers.html">Careers</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-menu " href="./contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <!-- <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form> -->
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <section id="hero" class="hero d-flex align-items-center section-bg">
+            <div class="container-space">
+
+                <div class="hero-text">
+
+                    <h2>Unite technology, clinical, <br>
+                        & business for efficiency.</h2>
+                    <p>Prolify objectively improves both business and patient outcomes by <br>
+                        seamlessly integrating technology with analytics and insights <br>
+                        that drive proven results.</p>
+                </div>
+
+
+            </div>
+        </section><!-- End Hero Section -->
+    </div>
+
+
+    <!-- End Hero -->
+
+
+    <main id="main">
+
+        <!-- ======= About Us Section ======= -->
+        <section id="about" class="about">
+            <div class="container-space-2">
+
+                <div class="hero--sub d-flex justify-content-center align-items-center">
+                    <p class="text-center sub-hero--text mb-0">Prolify breaks down silos to help clients struggling with
+                        insights, diagnosis, and manpower. They leverage their centres
+                        of excellence in RCM, Analytics,
+                        and Consulting to improve efficiency, cash flow, and patient outcomes. Their technology
+                        integrates deeply into existing
+                        workflows for more meaningful patient-provider engagement.</p>
+                </div>
+
+                <h4 class="about-head">Providers</h4>
+                <hr class="hr-line">
+
+                <div class="d-xl-flex my-5">
+
+                    <div class="card solution-card border-0 col-xl-4 mb-xl-0 mb-3">
+
+                        <div class="col-xl-12 h-100">
+
+                            <div class="card solution-card border-0">
+                                <div class="card-body p-4">
+                                    <img src="./assets/images/solution-img.svg" alt="">
+
+                                    <div class="mt-5">
+
+                                        <h6 class="solution-card-head pt-4">Provider Solutions</h6>
+                                        <p class="solution-card-text">Prolify partners with provider organisations to
+                                            help
+                                            them improve patient outcomes, optimise operations
+                                            and maximise revenue.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <hr class="my-2">
+
+                            <div class="card border-0">
+                                <div class="card-body p-4">
+                                    <img src="./assets/images/concierge 0.svg" alt="">
+
+                                    <div class="mt-5">
+
+                                        <h6 class="solution-card-head pt-3">Revenue Cycle Management</h6>
+                                        <p class="solution-card-text">We help healthcare providers improve cash
+                                            collections
+                                            and overall operational efficiencies by redefining
+                                            revenue cycle standards with an integrated
+                                            end-to-end technology enabled approach.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vr vr-line"></div>
+
+                    <div class="card solution-card  border-0 col-xl-4 mb-xl-0 mb-3">
+
+                        <div class="col-xl-12 h-100">
+
+                            <div class="card solution-card border-0">
+                                <div class="card-body p-4">
+                                    <img src="./assets/images/concierge 5.svg" alt="">
+
+                                    <div class="mt-3">
+
+                                        <h6 class="solution-card-head pt-4">Interoperability</h6>
+                                        <p class="solution-card-text">Our FIHR standard API approach provides the means
+                                            for disparate applications and systems within and
+                                            outside the care settings to communicate effectively.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <hr class="my-2">
+
+                            <div class="card border-0">
+                                <div class="card-body p-4">
+                                    <img src="./assets/images/concierge 6.svg
+                                    " alt="">
+
+                                    <div class="mt-5">
+
+                                        <h6 class="solution-card-head pt-4">Connected Health</h6>
+                                        <p class="solution-card-text">Our solution enables care teams with virtual care
+                                            capabilities to remotely track the health of their
+                                            patients at home, collaborate with the patients’
+                                            care givers and clinicians alike, and to minimize
+                                            readmissions.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vr vr-line"></div>
+
+
+                    <div class="card solution-card  border-0 col-xl-4 mb-xl-0 mb-3">
+
+                        <div class="col-xl-12 h-100">
+
+                            <div class="card solution-card border-0">
+                                <div class="card-body p-4">
+                                    <img src="./assets/images/concierge 7.svg" alt="">
+
+                                    <div class="mt-5">
+
+                                        <h6 class="solution-card-head pt-4">Advanced Analytics</h6>
+                                        <p class="solution-card-text">Prolify puts your data to work. We manage and
+                                            analyze your data to reveal meaningful insights
+                                            made available at the point of care so your
+                                            daily decisions are timely and accurate.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <hr class="my-2">
+
+                            <div class="card border-0">
+                                <div class="card-body p-4">
+                                    <img src="./assets/images/concierge 8.svg" alt="">
+
+                                    <div class="mt-5">
+
+                                        <h6 class="solution-card-head pt-4">Consulting</h6>
+                                        <p class="solution-card-text">Our deep expertise in the clinical and financial
+                                            value
+                                            chain helps identify and prioritize strategic
+                                            opportunities and execute flawlessly to ensure
+                                            returns exceed expectations.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <div class="card solution-card_about border-0 my-xl-5 mb-0">
+                    <div class="card-body">
+                        <div class="card col-xl-4 solution-card_about-sub">
+                            <div class="card-body p-4">
+                                <h6 class="solution-card_about-head">Types of provider entities we serve:</h6>
+
+                                <ul class="mt-3 ps-4">
+                                    <li class="my-2 solution-card_about-list">Health systems, IDNs</li>
+                                    <li class="my-2 solution-card_about-list">Hospitals</li>
+                                    <li class="my-2 solution-card_about-list">Ambulatory Surgery Centers</li>
+                                    <li class="my-2 solution-card_about-list">Physician practices</li>
+                                    <li class="my-2 solution-card_about-list">Post-acute care and home health</li>
+                                    <li class="my-2 solution-card_about-list">Allied health professionals</li>
+                                    <li class="my-2 solution-card_about-list">Dental practices</li>
+                                    <li class="my-2 solution-card_about-list">Medical billing companies</li>
+                                    <li class="my-2 solution-card_about-list">Medical device providers</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+        </section>
+
+
+        <!-- End About Us Section -->
+
+
+        <section id="payers" class="payers">
+            <div class="container-space-2">
+
+                <h4 class="about-head">Providers</h4>
+                <hr class="hr-line">
+
+                <div class="row">
+
+                    <div class="col-xl-6">
+                        <h3 class="about-head mb-xxl-5 mb-4">When community-based or Provider-owned <br>
+                            health plans lack infrastructure, skillsets, <br>
+                            resources</h3>
+
+                        <div class="card border-0 my-lg-5 mb-0">
+                            <div class="card-body p-xl-3 p-0">
+
+                                <img src="./assets/images/payers-img.svg" class="img-fluid payers-card_about" alt="">
+                                <div class="card col-xl-8 payers-card_about-sub ms-xl-4">
+                                    <div class="card-body p-sm-4">
+                                        <h6 class="payers-card_about-head">Types of provider entities we serve:</h6>
+
+                                        <ul class="mt-3 ps-4">
+                                            <li class="my-2 solution-card_about-list">Health plans: Medicare Advantage
+                                                Prescription,
+                                                Drug, managed Medicaid, and commercial plans</li>
+                                            <li class="my-2 solution-card_about-list">Provider owned health plans</li>
+                                            <li class="my-2 solution-card_about-list">Physician practices</li>
+                                            <li class="my-2 solution-card_about-list">Third party administrators</li>
+                                            <li class="my-2 solution-card_about-list">Provider risk-bearing
+                                                organizations</li>
+                                            <li class="my-2 solution-card_about-list">Technology/product partners</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-xl-6 mt-xxl-5 mt-xl-4">
+
+
+
+
+                        <div class="questions-padding mt-xxl-4 mt-3">
+
+                            <h5 class="questions-number mb-xxl-3 mb-2">1. Payer Solutions</h5>
+                            <p class="questions-answer">Prolify payer solutions can help payers become more intelligent
+                                and efficient.</p>
+                        </div>
+
+                        <div class="questions-padding">
+
+                            <h5 class="questions-number mb-xxl-3 mb-2">2. Advanced Analytics</h5>
+                            <p class="questions-answer">We help payers extract actionable insights from products,
+                                members, claims, utilization,
+                                fraud, waste and abuse (FWA), and provider networks, leveraging advanced
+                                analytics, AI and ML.</p>
+                        </div>
+
+                        <div class="questions-padding">
+
+                            <h5 class="questions-number mb-xxl-3 mb-2">3. Interoperability</h5>
+                            <p class="questions-answer">Prolify helps create the foundation for healthcare data
+                                interoperability and enables
+                                secure data sharing among payers, providers, and members.</p>
+                        </div>
+
+                        <div class="questions-padding">
+
+                            <h5 class="questions-number mb-xxl-3 mb-2">4. Consulting</h5>
+                            <p class="questions-answer">Our deep expertise in the clinical and financial value chain
+                                helps identify and prioritize
+                                strategic opportunities and execute flawlessly to ensure returns exceed expectations.
+                            </p>
+                        </div>
+
+
+                        <button class="btn btn-submit d-flex mt-xl-3 mt-4 px-4 py-2" type="submit">Join Profily</button>
+
+                    </div>
+
+                </div>
+        </section>
+
+
+
+    </main>
+
+    <div class="Footer">
+
+        <div class="container-space-2">
+
+            <div class="row">
+
+                <div class="col-xl-2 col-md-3 mb-3">
+                    <img class="img-fluid logo-2" src="./assets/images/logo-prolify 2.png">
+
+                </div>
+
+                <div class="col-xxl-7 col-xl-6 col-md-9">
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="">
+
+                                <p class=" mb-md-4 mt-4 text-head ">Menu</p>
+                                <a class="footer-link" href="">
+
+                                    <p class=" text-shade">Home</p>
+                                </a>
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">Industry Solutions</p>
+                                </a>
+
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">Business Process Services</p>
+                                </a>
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">Technology Solution</p>
+                                </a>
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">Our Success Stories</p>
+                                </a>
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">Knowledge Resources</p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="">
+                                <p class=" mb-md-4 mt-4 text-head">More</p>
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">Home</p>
+                                </a>
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">About Us</p>
+                                </a>
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">Contact Us</p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="">
+                                <a class="footer-link" href="">
+                                    <p class=" mb-md-4 mt-4 text-head">Legal</p>
+                                </a>
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">Terms & conditions</p>
+                                </a>
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">Privacy Policy</p>
+                                </a>
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">Cookies Policy</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+                <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6">
+
+                    <footer id="footer">
+
+                        <div class="footer-newsletter">
+                            <div class="">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-12">
+                                        <label for="" class="form-label form-label-text mb-3">Subscribe To Our News
+                                            Letter</label>
+                                        <form action="" method="post">
+                                            <input type="email" class="form-control form-control-text" name="email"
+                                                placeholder="your e-mail address"><input type="submit"
+                                                value="Subscribe">
+                                        </form>
+                                    </div>
+
+                                    <div class="d-flex py-5">
+                                        <div class="col-5">
+                                            <span class="d-block social-text">Social</span>
+                                            <div class="social-img my-3">
+                                                <img class="me-3" src="./assets/images/Facebook.svg" alt="">
+                                                <img src="./assets/images/linkedin.svg" alt="">
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-2">
+                                            <div class="vr   h-100"></div>
+
+                                        </div>
+
+                                        <div class="col-5">
+                                            <img src="./assets/images/com-logo.svg" alt="">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+
+
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="container-space-2">
+            <hr class="line w-100">
+            <div class=" pb-3">
+                <p class="text-shade text-center mb-0 mt-1">Copyright © 2020-2023</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+
+
+    <script src="jquery-3.6.4.min.js"></script>
+    <script src="./assets/js/jquery.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./assets/js/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).on('ready', function () {
+
+
+            $(".center").slick({
+                dots: false,
+                infinite: true,
+                centerMode: true,
+                slidesToShow: 2,
+                slidesToScroll: 0,
+                prevArrow: '<img class="arrow-left" src="./assets/images/arrow-left.svg" alt="">',
+                nextArrow: '<img class="arrow-right" src="./assets/images/arrow-right.svg" alt="">',
+
+                responsive: [
+                    {
+                        breakpoint: 1200,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 0
+                        }
+                    },
+                    // {
+                    //     breakpoint: 600,
+                    //     settings: {
+                    //         slidesToShow: 1,
+                    //         slidesToScroll: 2
+                    //     }
+                    // },
+                    // {
+                    //     breakpoint: 280,
+                    //     settings: {
+                    //         slidesToShow: 1,
+                    //         slidesToScroll: 1
+                    //     }
+
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+
+            });
+
+            $(".regular").slick({
+                dots: false,
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                prevArrow: '<img class="arrow-left" src="./assets/images/arrow-left.svg" alt="">',
+                nextArrow: '<img class="arrow-right" src="./assets/images/arrow-right.svg" alt="">',
+
+                responsive: [
+                    {
+                        breakpoint: 1801,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+
+                    {
+                        breakpoint: 1270,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+
+            });
+
+            $(".variable").slick({
+                dots: false,
+                infinite: true,
+                variableWidth: true,
+                prevArrow: '<img class="arrow-start" src="./assets/images/arrow-left.svg" alt="">',
+                nextArrow: '<img class="arrow-end" src="./assets/images/arrow-right.svg" alt="">'
+            });
+
+        });
+
+        $(document).ready(function () {
+            $(window).bind('scroll', function () {
+                var navHeight = $(window).height() - 70;
+                if ($(window).scrollTop() > navHeight) {
+                    $('nav').addClass('fixed');
+                }
+                else {
+                    $('nav').removeClass('fixed');
+                }
+            });
+        });
+
+
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        window.onclick = function (event) {
+            if (!event.target.matches('.d-btn')) {
+                var dropdowns = document.getElementsByClassName("d-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+
+    </script>
+</body>
+
+</html>

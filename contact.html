@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <style type="text/css">
+        .slider {
+            width: 100%;
+
+        }
+
+        .slick-slide {
+            margin: 0px 20px;
+        }
+
+        .slick-current {
+            opacity: 1;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+
+
+
+
+
+
+    <!-- End Header -->
+
+    <!-- ======= Hero ======= -->
+
+    <div class="banner">
+
+        <div class="header" id="header">
+
+            <nav class="navbar navbar-expand-xl bg-body-tertiary ">
+                <div class="container-fluid container-space my-1 px-0">
+
+
+                    <a href="index.html" class="navbar-brand px-0 mx-0">
+                        <img class="logo mx-0 px-0" src="./assets/images/logo.png" alt="">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-menu" aria-current="page" href="./index.html">Home</a>
+                            </li>
+
+                            <div class="d ">
+                                <a class="nav-link nav-link-menu d-btn" onclick="myFunction()" href="#">Solutions</a>
+
+
+
+                                <div class="d-content pt-md-0 pt-2" id="myDropdown">
+
+                                    <div class="d-md-flex">
+
+                                        <a href="./solution.html" class="menu-list-link">
+                                            <div class="d-flex">
+                                                <div class="m-md-3 mb-1 ms-3">
+                                                    <div class="menu-icon">
+
+                                                        <li class="ps-4 mb-2 menu-list">Industry Solutions</li>
+                                                        <img class="built-icon" src="./assets/images/menu-icon.svg"
+                                                            alt="">
+                                                    </div>
+
+
+                                                    <img class="img-fluid menu-imgs" src="./assets/images/menu-img.svg"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                        </a>
+
+
+
+                                        <a href="#" class="menu-list-link">
+                                            <div class="d-flex">
+                                                <div class="m-md-3 mb-1 ms-3">
+                                                    <div class="menu-icon">
+
+                                                        <li class="ps-4 mb-2 menu-list">Technology Solutions
+                                                        </li>
+                                                        <img class="built-icon" src="./assets/images/menu-icon.svg"
+                                                            alt="">
+                                                    </div>
+
+
+                                                    <img class="img-fluid menu-imgs"
+                                                        src="./assets/images/menu-img-1.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </a>
+
+
+                                        <a href="#" class="menu-list-link">
+                                            <div class="d-flex">
+                                                <div class="m-md-3 mb-1 ms-3">
+                                                    <div class="menu-icon">
+
+                                                        <li class="ps-4 mb-2 menu-list">Learn More</li>
+                                                        <img class="built-icon" src="./assets/images/menu-icon.svg"
+                                                            alt="">
+                                                    </div>
+
+
+                                                    <img class="img-fluid menu-imgs"
+                                                        src="./assets/images/menu-img-2.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-menu" href="#">Business Process Services</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-menu" href="#">Our Success Stories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-menu" href="./knowledge.html">Knowledge Resources</a>
+                            </li>
+
+                            <!-- <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li> -->
+
+                            <!-- <li class="dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Drop Down 1</a></li>
+                                        <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i
+                                                    class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                            <ul>
+                                                <li><a href="#">Deep Drop Down 1</a></li>
+                                                <li><a href="#">Deep Drop Down 2</a></li>
+                                                <li><a href="#">Deep Drop Down 3</a></li>
+                                                <li><a href="#">Deep Drop Down 4</a></li>
+                                                <li><a href="#">Deep Drop Down 5</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Drop Down 2</a></li>
+                                        <li><a href="#">Drop Down 3</a></li>
+                                        <li><a href="#">Drop Down 4</a></li>
+                                    </ul>
+                                </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-menu" href="./about.html">About Us</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-menu " href="./careers.html">Careers</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-menu active" href="./contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <!-- <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form> -->
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <section id="hero" class="hero d-flex align-items-center section-bg">
+            <div class="container-space">
+
+
+                <h2>Meet with us</h2>
+                <p>We look forward to partnering with you and your organization to help you achieve <br>
+                    your desired outcomes.</p>
+            </div>
+        </section><!-- End Hero Section -->
+    </div>
+
+
+    <!-- End Hero -->
+
+
+    <main id="main">
+
+
+        <!-- ======= Prolify Section ======= -->
+
+        <section id="Application" class="Application">
+            <div class="container-space-2">
+                <div class="row ">
+
+                    <div class="col-xl-6 mb-xl-0 mb-5">
+
+                        <h4 class="Application-head">Talk To Our Experts</h4>
+                        <p class="Application-text">Have questions in your mind,Fill out thr form and our
+                            expert teams will reach you</p>
+
+                        <div class="d-flex">
+                            <img class="img-fluid" src="./assets/images/mail-box.svg" alt="">
+
+                            <div class="ms-3">
+
+                                <p class="mb-1 mt-4 Address-call">For Call</p>
+                                <span class="address-phone">+1 407 258 3629</span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex">
+                            <img class="img-fluid" src="./assets/images/target.svg" alt="">
+
+                            <div class="ms-3">
+
+                                <p class="mb-1 mt-4 Address-call">For Mail</p>
+                                <span class="address-phone">info@prolifytech.com</span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex">
+                            <img class="img-fluid mt-4 align-self-start" src="./assets/images/india.svg" alt="">
+
+                            <div class="ms-3">
+
+                                <p class="mb-1 mt-4 Address-call">Address</p>
+                                <span class="address-phone">PROLIFY TECH INDIA (P) LTD4th Floor, <br>
+                                    G-23,Ambattur Industrial Estate, <br>
+                                    Chennai, Tamil Nadu – 600 058, India.</span>
+                            </div>
+                        </div>
+
+                        <hr class="me-5 hr-color">
+
+
+                        <h4 class="location">Other Location</h4>
+
+                        <div class="d-flex">
+                            <img class="img-fluid align-self-start mt-4" src="./assets/images/usa.svg" alt="">
+
+                            <div class="ms-3">
+
+                                <p class="mb-1 mt-4 Address-call">US Office</p>
+                                <span class="address-phone">9100 Conroy Windermere Rd, <br>
+                                    Suite 200, Windermere, FL 34786, <br>
+                                    USA +1 407 258 3629</span>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+
+                    <div class="col-xl-6">
+
+
+                        <form action="">
+
+                            <div class="row mb-4 needs-validation">
+                                <div class="col-sm-12 col-12">
+                                    <label for="placeholderInput" class="form-label form-label-content">First Name
+                                        <span>*</span>
+                                    </label>
+                                    <input type="text" class="form-control form-control-content" id="placeholderInput"
+                                        placeholder="First Name">
+                                </div>
+
+                                <!-- <div class="col-sm-12 pe-4 mb-3">
+                                    <label for="placeholderInput" class="form-label form-label-content ">Last Name
+                                        <span>*</span></label>
+                                    <input type="text" class="form-control form-control-content" id="placeholderInput"
+                                        placeholder="Last Name">
+                                </div> -->
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-sm-12">
+                                    <label for="placeholderInput" class="form-label form-label-content">E-mail
+                                        <span>*</span>
+                                    </label>
+                                    <input type="email" class="form-control form-control-content" id="placeholderInput"
+                                        placeholder="id@example.com">
+                                </div>
+
+                                <!-- <div class="col-sm-6 pe-4 mb-sm-0 mb-3">
+                                    <label for="placeholderInput" class="form-label form-label-content">Mobile Number
+                                        <span>*</span></label>
+                                    <input type="text" class="form-control form-control-content" id="placeholderInput"
+                                        placeholder="+91 - xxxxxxxxxx">
+                                </div> -->
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-sm-12 ">
+                                    <label for="placeholderInput" class="form-label form-label-content">Mobile Number
+                                        <span>*</span>
+                                    </label>
+                                    <input type="text" class="form-control form-control-content" id="placeholderInput"
+                                        placeholder="+91 - xxxxxxxxxx">
+                                </div>
+
+
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-sm-12">
+                                    <label for="placeholderInput" class="form-label form-label-content">Subject
+                                        <span>*</span>
+                                    </label>
+                                    <input type="text" class="form-control form-control-content" id="placeholderInput"
+                                        placeholder="Job Title">
+                                </div>
+
+
+                            </div>
+
+
+
+
+                            <div>
+                                <label for="exampleFormControlTextarea5" class="form-label form-label-content">Message
+                                    <span>*</span></label>
+                                <textarea class="form-control form-control-text p-3" id="exampleFormControlTextarea5 "
+                                    rows="5" placeholder="Your Remarks Here"></textarea>
+                            </div>
+
+                            <button class="btn btn-submit mx-auto d-flex mt-5 px-4 py-2" type="submit">Submit</button>
+                        </form>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- End Blog Section -->
+
+        <!-- <section id="Locations" class="Locations">
+            <div class="container-space-2">
+
+                <div class="d-lg-flex justify-content-between">
+                    <div class="div">
+
+                        <button class="btn btn-learn--outline" type="button">Our Locations</button>
+
+                        <h4 class="my-sm-3 mb-2 mt-3 blog-head">Visit Our Locations</h4>
+
+                        <p>Find us in those locations.</p>
+                    </div>
+
+                    <div class="col-xxl-6 col-xl-8">
+                        <div class="row">
+                            <div class="col-md-6 mb-md-0 mb-4">
+
+                                <div class="card blog--card border-0 mt-sm-0 mt-4 h-100">
+                                    <div class="card-body p-4">
+                                        <img class="img-fluid" src="./assets/images/contect-blog-1.svg" alt="">
+                                        <h6 class="blog--card-head my-4">US Office</h6>
+
+                                        <p class="blog--card-text">9100 Conroy Windermere Rd, <br>
+                                            Suite 200, Windermere, FL 34786, <br>
+                                            USA +1 407 258 3629</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+
+                                <div class="card blog--card border-0 mt-sm-0 mt-4 h-100">
+                                    <div class="card-body p-4">
+                                        <img class="img-fluid" src="./assets/images/contect-blog-2.svg" alt="">
+                                        <h6 class="blog--card-head my-4">India Office</h6>
+
+                                        <p class="blog--card-text">PROLIFY TECH INDIA (P) LTD4th Floor, <br>
+                                            G-23,Ambattur Industrial Estate,Chennai, <br>
+                                            Tamil Nadu – 600 058, India.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+
+        </div>
+
+
+
+
+    </main>
+
+    <div class="Footer">
+
+        <div class="container-space-2">
+
+            <div class="row">
+
+                <div class="col-xl-2 col-md-3 mb-3">
+                    <img class="img-fluid logo-2" src="./assets/images/logo-prolify 2.png">
+
+                </div>
+
+                <div class="col-xxl-7 col-xl-6 col-md-9">
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="">
+
+                                <p class=" mb-md-4 mt-4 text-head ">Menu</p>
+                                <a class="footer-link" href="">
+
+                                    <p class=" text-shade">Home</p>
+                                </a>
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">Industry Solutions</p>
+                                </a>
+
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">Business Process Services</p>
+                                </a>
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">Technology Solution</p>
+                                </a>
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">Our Success Stories</p>
+                                </a>
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">Knowledge Resources</p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="">
+                                <p class=" mb-md-4 mt-4 text-head">More</p>
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">Home</p>
+                                </a>
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">About Us</p>
+                                </a>
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">Contact Us</p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="">
+                                <a class="footer-link" href="">
+                                    <p class=" mb-md-4 mt-4 text-head">Legal</p>
+                                </a>
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">Terms & conditions</p>
+                                </a>
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">Privacy Policy</p>
+                                </a>
+                                <a class="footer-link" href="">
+                                    <p class=" text-shade">Cookies Policy</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+                <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6">
+
+                    <footer id="footer">
+
+                        <div class="footer-newsletter">
+                            <div class="">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-12">
+                                        <label for="" class="form-label form-label-text mb-3">Subscribe To Our News
+                                            Letter</label>
+                                        <form action="" method="post">
+                                            <input type="email" class="form-control form-control-text" name="email"
+                                                placeholder="your e-mail address"><input type="submit"
+                                                value="Subscribe">
+                                        </form>
+                                    </div>
+
+                                    <div class="d-flex py-5">
+                                        <div class="col-5">
+                                            <span class="d-block social-text">Social</span>
+                                            <div class="social-img my-3">
+                                                <img class="me-3" src="./assets/images/Facebook.svg" alt="">
+                                                <img src="./assets/images/linkedin.svg" alt="">
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-2">
+                                            <div class="vr   h-100"></div>
+
+                                        </div>
+
+                                        <div class="col-5">
+                                            <img src="./assets/images/com-logo.svg" alt="">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+
+
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="container-space-2">
+            <hr class="line w-100">
+            <div class=" pb-3">
+                <p class="text-shade text-center mb-0 mt-1">Copyright © 2020-2023</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+
+
+    <script src="jquery-3.6.4.min.js"></script>
+    <script src="./assets/js/jquery.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./assets/js/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).on('ready', function () {
+
+
+            $(".center").slick({
+                dots: false,
+                infinite: true,
+                centerMode: true,
+                slidesToShow: 2,
+                slidesToScroll: 0,
+                prevArrow: '<img class="arrow-left" src="./assets/images/arrow-left.svg" alt="">',
+                nextArrow: '<img class="arrow-right" src="./assets/images/arrow-right.svg" alt="">',
+
+                responsive: [
+                    {
+                        breakpoint: 1200,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 0
+                        }
+                    },
+                    // {
+                    //     breakpoint: 600,
+                    //     settings: {
+                    //         slidesToShow: 1,
+                    //         slidesToScroll: 2
+                    //     }
+                    // },
+                    // {
+                    //     breakpoint: 280,
+                    //     settings: {
+                    //         slidesToShow: 1,
+                    //         slidesToScroll: 1
+                    //     }
+
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+
+            });
+
+            $(".regular").slick({
+                dots: false,
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                prevArrow: '<img class="arrow-left" src="./assets/images/arrow-left.svg" alt="">',
+                nextArrow: '<img class="arrow-right" src="./assets/images/arrow-right.svg" alt="">',
+
+                responsive: [
+                    {
+                        breakpoint: 1801,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+
+                    {
+                        breakpoint: 1270,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+
+            });
+
+            $(".variable").slick({
+                dots: false,
+                infinite: true,
+                variableWidth: true,
+                prevArrow: '<img class="arrow-start" src="./assets/images/arrow-left.svg" alt="">',
+                nextArrow: '<img class="arrow-end" src="./assets/images/arrow-right.svg" alt="">'
+            });
+
+        });
+
+        $(document).ready(function () {
+            $(window).bind('scroll', function () {
+                var navHeight = $(window).height() - 70;
+                if ($(window).scrollTop() > navHeight) {
+                    $('nav').addClass('fixed');
+                }
+                else {
+                    $('nav').removeClass('fixed');
+                }
+            });
+        });
+
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        window.onclick = function (event) {
+            if (!event.target.matches('.d-btn')) {
+                var dropdowns = document.getElementsByClassName("d-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+
+    </script>
+</body>
+
+</html>
